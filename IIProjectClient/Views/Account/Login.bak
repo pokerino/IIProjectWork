@@ -8,10 +8,11 @@
     <form action="@Url.Action("Login")" method="post">
         <label><b>Username</b></label>
         <input type="text" placeholder="Enter Username" name="username" required>
+
         <label><b>Password</b></label>
         <input type="password" placeholder="Enter Password" name="password" required>
         <button type="submit">Login</button>
-        <br>  
-        <b>Remember me </b><input type="checkbox" name="rememberMe" value="true">
+        <br>
+        <b>Remember me </b><input type="checkbox" name="rememberMe">
     </form>
 </div>

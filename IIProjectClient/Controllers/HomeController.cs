@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Xml.Linq;
 using System.Web.Hosting;
+using System.Web.Security;
 
 
 namespace IIProjectClient.Controllers
@@ -16,7 +17,9 @@ namespace IIProjectClient.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return RedirectToAction("Login", "Account");
+            return View();
         }
+
+
     }
 }

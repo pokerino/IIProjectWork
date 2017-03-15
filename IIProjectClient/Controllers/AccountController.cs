@@ -5,6 +5,7 @@ using System.Xml.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Hosting;
+using System.Web.Security;
 
 namespace IIProjectClient.Controllers
 {
@@ -18,17 +19,26 @@ namespace IIProjectClient.Controllers
         }
 
         [HttpPost]
-        public ActionResult Login(string uname, string psw)
+        public ActionResult Login(Models.User user)
         {
-            foreach (var Element in userList.Elements("user"))
+            if (user.IsValid(user.username, user.password))
             {
-                if (Element.Element("username").Value.Equals(uname)&&Element.Element("password").Value.Equals(psw))
-                {
-                    return RedirectToAction("Sök", "Sök");
-                }
+                FormsAuthentication.SetAuthCookie(user.username, user.rememberMe);
+                return RedirectToAction("Index", "Home");
             }
-            return View();
-
+            else
+            {
+                ModelState.AddModelError("", "Login data is incorrect!");
+            }
+            return View(user);
         }
+
+        public ActionResult LogOff()
+        {
+            FormsAuthentication.SignOut();
+            return RedirectToAction("Index", "Home");
+        }
+
+
     }
 }

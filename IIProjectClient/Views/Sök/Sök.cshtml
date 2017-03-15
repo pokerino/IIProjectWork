@@ -2,6 +2,13 @@
 @{
     ViewBag.Title = "Sök";
 }
-
-<h2>Sök</h2>
+@if (Request.IsAuthenticated) 
+{
+    <h2>Sök</h2>
+}
+else
+{
+    <h2>Need to login!</h2>
+    @Html.ActionLink("Go to login page", "Login", "Account")
+}    
 

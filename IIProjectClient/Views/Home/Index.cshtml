@@ -2,8 +2,15 @@
 @{
     ViewBag.Title = "Index";
 }
+@if (Request.IsAuthenticated) 
+{
+    <h2>Welcome @User.Identity.Name</h2>
 
-<h2>Index</h2>
-
-@Html.ActionLink("Sök","Sök", "Sök")
-@Html.ActionLink("LoginPartial", "_LoginPartial", "Shared")
+    @Html.ActionLink("Sök","Sök", "Sök")
+    
+}
+else
+{
+    <h2>Need to login!</h2>
+    @Html.ActionLink("Go to login page", "Login", "Account")
+}
