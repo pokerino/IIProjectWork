@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace IIProjectClient.Controllers
 {
-    public class FordonPassageController : Controller
+    public class SökController : Controller
     {
-        // GET: FordonPassage
-        public ActionResult Index()
+        // GET: Sök
+        public ActionResult Sök()
         {
             return View();
         }
