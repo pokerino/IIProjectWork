@@ -26,6 +26,11 @@ namespace IIProjectClient.Controllers
             IEnumerable<FordonPassage> viewPassager = (from passager in passagerList.Elements("FordonPassage")
                                                       let passage = FordonPassage.fromXML(passager)
                                                       select passage).OrderBy(p => p.Tid);
+            Tjänstemeddelande newMessage = new Tjänstemeddelande(1, User.Identity.Name, this.ToString(), User.Identity.Name, _testor);
+            XElement messages = XElement.Load(HostingEnvironment.MapPath("/App_Data/") + "Tjänstemeddelanden.xml");
+            messages.Add(newMessage.toXml());
+            messages.Save(HostingEnvironment.MapPath("/App_Data/") + "Tjänstemeddelanden.xml");
+
             return View(viewPassager);
         }
 

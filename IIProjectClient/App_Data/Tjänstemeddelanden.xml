@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tjänstemeddelanden>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Dean</Tjänsteansvarig>
+      <Applikation>IIProjectClient.Controllers.SökController</Applikation>
+      <Svarstid>2017-03-16T22:52:00.189426+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Dean</Anropsansvarig>
+      <Argument></Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Owen</Tjänsteansvarig>
+      <Applikation>IIProjectClient.Controllers.SökController</Applikation>
+      <Svarstid>2017-03-16T22:54:39.3221346+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument></Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Mumin</Tjänsteansvarig>
+      <Applikation>IIProjectClient.Controllers.SökController</Applikation>
+      <Svarstid>2017-03-16T23:31:52.947777+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Mumin</Anropsansvarig>
+      <Argument></Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+</Tjänstemeddelanden>
