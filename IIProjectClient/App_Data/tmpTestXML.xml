@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FordonPassager>
+  <FordonPassage>
+    <Tid>2011-03-26T10:20:26.1251889Z</Tid>
+    <Fordon>
+      <EPC>urn:epc:id:giai:123456.1847447211727</EPC>
+      <EVN>847447211727</EVN>
+      <Fordonsinnehavare>AAE Cargo AG</Fordonsinnehavare>
+      <UnderhallsansvarigtForetag>AAE AG</UnderhallsansvarigtForetag>
+      <FordonsTyp>Godsvagn </FordonsTyp>
+      <FordonsunderkategoriKodFullVardeSE>S - Flakvagn med boggi, specialtyp </FordonsunderkategoriKodFullVardeSE>
+      <FordonsgodkannandeFullVardeSE>Tillsvidare godkännande </FordonsgodkannandeFullVardeSE>
+      <GiltigtFrom>1991-01-01T00:00:00</GiltigtFrom>
+    </Fordon>
+    <Location>
+      <Epc>urn:epc:id:sgln:735999271.000.13</Epc>
+      <Name>Sunderbyns_Sjukhus</Name>
+    </Location>
+  </FordonPassage>
+  <FordonPassage>
+    <Tid>2013-03-26T10:20:26.1251889Z</Tid>
+    <Fordon>
+      <EPC>urn:epc:id:giai:123456.2837447216719</EPC>
+      <EVN>837447216719</EVN>
+      <Fordonsinnehavare>AAE Cargo AG</Fordonsinnehavare>
+      <UnderhallsansvarigtForetag>AAE AG</UnderhallsansvarigtForetag>
+      <FordonsTyp>Godsvagn </FordonsTyp>
+      <FordonsunderkategoriKodFullVardeSE>S - Flakvagn med boggi, specialtyp </FordonsunderkategoriKodFullVardeSE>
+      <FordonsgodkannandeFullVardeSE>Tillsvidare godkännande </FordonsgodkannandeFullVardeSE>
+      <GiltigtFrom>2005-08-23T00:00:00</GiltigtFrom>
+    </Fordon>
+    <Location>
+      <Epc>urn:epc:id:sgln:735999271.000.13</Epc>
+      <Name>Sunderbyns_Sjukhus</Name>
+    </Location>
+  </FordonPassage>
+  <FordonPassage>
+    <Tid>2011-03-26T10:20:26.1251889Z</Tid>
+    <Fordon>
+      <EPC>urn:epc:id:giai:123456.1847447211727</EPC>
+      <EVN>847447211727</EVN>
+      <Fordonsinnehavare>AAE Cargo AG</Fordonsinnehavare>
+      <UnderhallsansvarigtForetag>AAE AG</UnderhallsansvarigtForetag>
+      <FordonsTyp>Godsvagn </FordonsTyp>
+      <FordonsunderkategoriKodFullVardeSE>S - Flakvagn med boggi, specialtyp </FordonsunderkategoriKodFullVardeSE>
+      <FordonsgodkannandeFullVardeSE>Tillsvidare godkännande </FordonsgodkannandeFullVardeSE>
+      <GiltigtFrom>1991-01-01T00:00:00</GiltigtFrom>
+    </Fordon>
+    <Location>
+      <Epc>urn:epc:id:sgln:735999271.000.13</Epc>
+      <Name>Sunderbyns_Sjukhus</Name>
+    </Location>
+  </FordonPassage>
+  <FordonPassage>
+    <Tid>2011-03-26T10:20:26.1251889Z</Tid>
+    <Fordon>
+      <EPC>urn:epc:id:giai:123456.1847447211727</EPC>
+      <EVN>847447211727</EVN>
+      <Fordonsinnehavare>AAE Cargo AG</Fordonsinnehavare>
+      <UnderhallsansvarigtForetag>AAE AG</UnderhallsansvarigtForetag>
+      <FordonsTyp>Godsvagn </FordonsTyp>
+      <FordonsunderkategoriKodFullVardeSE>S - Flakvagn med boggi, specialtyp </FordonsunderkategoriKodFullVardeSE>
+      <FordonsgodkannandeFullVardeSE>Tillsvidare godkännande </FordonsgodkannandeFullVardeSE>
+      <GiltigtFrom>1991-01-01T00:00:00</GiltigtFrom>
+    </Fordon>
+    <Location>
+      <Epc>urn:epc:id:sgln:735999271.000.13</Epc>
+      <Name>Sunderbyns_Sjukhus</Name>
+    </Location>
+  </FordonPassage>
+  <FordonPassage>
+    <Tid>2010-03-26T10:20:26.1251889Z</Tid>
+    <Fordon>
+      <EPC>urn:epc:id:giai:123456.1847447211727</EPC>
+      <EVN>847447211727</EVN>
+      <Fordonsinnehavare>AAE Cargo AG</Fordonsinnehavare>
+      <UnderhallsansvarigtForetag>AAE AG</UnderhallsansvarigtForetag>
+      <FordonsTyp>Godsvagn </FordonsTyp>
+      <FordonsunderkategoriKodFullVardeSE>S - Flakvagn med boggi, specialtyp </FordonsunderkategoriKodFullVardeSE>
+      <FordonsgodkannandeFullVardeSE>Tillsvidare godkännande </FordonsgodkannandeFullVardeSE>
+      <GiltigtFrom>1991-01-01T00:00:00</GiltigtFrom>
+    </Fordon>
+    <Location>
+      <Epc>urn:epc:id:sgln:735999271.000.13</Epc>
+      <Name>Sunderbyns_Sjukhus</Name>
+    </Location>
+  </FordonPassage>
+</FordonPassager>
+

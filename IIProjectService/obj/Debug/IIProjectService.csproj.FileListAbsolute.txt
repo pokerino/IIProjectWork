@@ -10,3 +10,9 @@ x:\Desktop\IIProjectWork-master\IIProjectWork-master\IIProjectService\bin\IIProj
 x:\Desktop\IIProjectWork-master\IIProjectWork-master\IIProjectService\obj\Debug\IIProjectService.csprojResolveAssemblyReference.cache
 x:\Desktop\IIProjectWork-master\IIProjectWork-master\IIProjectService\obj\Debug\IIProjectService.dll
 x:\Desktop\IIProjectWork-master\IIProjectWork-master\IIProjectService\obj\Debug\IIProjectService.pdb
+C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectService\bin\IIProjectService.dll.config
+C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectService\bin\IIProjectService.dll
+C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectService\bin\IIProjectService.pdb
+C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.csprojResolveAssemblyReference.cache
+C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.dll
+C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectService\obj\Debug\IIProjectService.pdb

@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Hosting;
 using System.Web.Security;
+using IIProjectClient.Models;
 
 namespace IIProjectClient.Controllers
 {
@@ -19,7 +20,7 @@ namespace IIProjectClient.Controllers
         }
 
         [HttpPost]
-        public ActionResult Login(Models.User user)
+        public ActionResult Login(User user)
         {
             if (user.IsValid(user.username, user.password))
             {
@@ -39,6 +40,37 @@ namespace IIProjectClient.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        public ActionResult Manage()
+        {
+            User user = new User();
+            user = user.getUser(User.Identity.Name);
+            return View(user);
+        }
 
+        [HttpPost]
+        public ActionResult Manage(User user, string pword)
+        {
+            if(user.modifieUser(user, pword, User.Identity.Name))
+            {
+                FormsAuthentication.SetAuthCookie(user.username, User.Identity.IsAuthenticated);
+                return RedirectToAction("Index", "Home");
+            }
+            return RedirectToAction("Manage", "Account");
+        }
+
+        public ActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Register(User user)
+        {
+            if(user.registerNewUser(user))
+            {
+                return RedirectToAction("Login", "Account");                
+            }
+            return View(user);
+        }
     }
 }

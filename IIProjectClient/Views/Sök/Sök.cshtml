@@ -1,10 +1,50 @@
-﻿
+﻿@model IEnumerable<IIProjectClient.Models.FordonPassage>
 @{
     ViewBag.Title = "Sök";
+
 }
-@if (Request.IsAuthenticated) 
+@if (Request.IsAuthenticated)
 {
-    <h2>Sök</h2>
+
+    <form action="@Url.Action("Sök")" method="post">
+        Sök: <input type="text" name="_testor"><br>
+        <input type="submit" class="btn btn-primary " value="Sök" />
+    </form>
+
+    <div>
+        @if (Model != null)
+        {
+            <table>
+                <tr>
+                    <th>Tid</th>
+                    <th>Plats</th>
+                    <th>Fordonstyp</th>
+                    <th>Innehavare</th>
+                    <th>EVN</th>
+                    <th>Giltigt From</th>
+                    <th>Giltigt Tom</th>
+                </tr>
+                @foreach (IIProjectClient.Models.FordonPassage passage in Model)
+                {
+                    <tr>
+                        <td>@passage.Tid</td>
+                        <td>@passage.LocationName</td>
+                        <td>@passage.FordonsTyp</td>
+                        <td>@passage.Fordonsinnehavare</td>
+                        <td>@passage.EVN</td>
+                        @if (passage.FordonsgodkannandeGiltigtFrom != null)
+                        {
+                            <td>@Convert.ToDateTime(passage.FordonsgodkannandeGiltigtFrom).ToString("yyyy/MM/dd")</td>}
+                        @if (passage.FordonsgodkannandeGiltigtTom != null)
+                        {
+                            <td>@Convert.ToDateTime(passage.FordonsgodkannandeGiltigtTom).ToString("yyyy/MM/dd")</td>}
+                    </tr>
+
+                }
+            </table>
+        }
+    </div>
+
 }
 else
 {

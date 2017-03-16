@@ -399,3 +399,7 @@ C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectClient\bin\zh-Hant\System
 C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectClient\obj\Debug\IIProjectClient.csprojResolveAssemblyReference.cache
 C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectClient\obj\Debug\IIProjectClient.dll
 C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectClient\obj\Debug\IIProjectClient.pdb
+C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectClient\bin\PagedList.dll
+C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectClient\bin\PagedList.Mvc.dll
+C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectClient\bin\PagedList.xml
+C:\Users\shado\Documents\GitHub\IIProjectWork\IIProjectClient\bin\PagedList.Mvc.xml

@@ -1,0 +1,44 @@
+﻿@model IIProjectClient.Models.User
+
+@{
+    ViewBag.Title = "Register";
+}
+@if (Request.IsAuthenticated)
+{
+    Response.Redirect("~/Home/Index");
+}
+else
+{
+    if(Model != null)
+    {
+        <h2>Register</h2>
+        <div>Username already taken!</div>
+        <div>
+            <form action="@Url.Action("Register")" method="post">
+                <label><b>Username</b></label>
+                <input type="text" name="username" value="@Model.username" required>
+                <label><b>Password</b></label>
+                <input type="password" name="password" value="@Model.password" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    }
+    else
+    {
+        <h2>Register</h2>
+        <div>
+            <form action="@Url.Action("Register")" method="post">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" required>
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+
+    }
+
+
+
+
+}
