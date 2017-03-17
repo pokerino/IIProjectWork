@@ -84,5 +84,19 @@ namespace IIProjectClient.Models
             }
             return false;
         }
+
+        public static bool IsUser(string uname)
+        {
+            XElement userList = XElement.Load(HostingEnvironment.MapPath("/App_Data/") + "users.xml");
+            foreach (var Element in userList.Elements("user"))
+            {
+                if (Element.Element("username").Value.Equals(uname))
+                {
+                    return true;
+                }
+            }
+            return false;
+
+        }
     }
 }

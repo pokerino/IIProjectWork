@@ -194,6 +194,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Platser.cs" />
     <Compile Include="Models\Tjänstemeddelande.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\FordonPassage.cs" />
@@ -206,7 +207,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Tjänstemeddelanden.xml" />
-    <Content Include="App_Data\tmpTestXML.xml" />
     <Content Include="App_Data\users.xml" />
     <Content Include="Content\PagedList.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -281,6 +281,9 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Service References\ProjectServiceReference1\IIProjectClient.ProjectServiceReference1.ArrayOfXElement.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Service References\ProjectServiceReference1\Service1.disco" />
     <None Include="Service References\ProjectServiceReference1\configuration91.svcinfo" />
     <None Include="Service References\ProjectServiceReference1\configuration.svcinfo" />
@@ -366,6 +369,8 @@
           <DevelopmentServerPort>50290</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:49949/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:49949/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

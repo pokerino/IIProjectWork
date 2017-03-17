@@ -4,52 +4,832 @@
     <Svarsinformation>
       <Svarskod>1</Svarskod>
       <Meddelande>Anrop lyckat</Meddelande>
-      <Tjänsteansvarig>Dean</Tjänsteansvarig>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
       <Applikation>IIProjectClient.Controllers.SökController</Applikation>
-      <Svarstid>2017-03-16T22:52:00.189426+01:00</Svarstid>
+      <Svarstid>2017-03-17T19:07:17.0947726+01:00</Svarstid>
     </Svarsinformation>
     <Anropsinformation>
       <Anropsansvarig>Dean</Anropsansvarig>
-      <Argument></Argument>
+      <Argument>urn:epc:id:sgln:735999271.000.13, 2011-03-29 00:00:00, 2011-03-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>2</Svarskod>
+      <Meddelande>Interntfel, kan ej utföra operation</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.31</Applikation>
+      <Svarstid>2017-03-17T19:22:15.1365502+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Dean</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.13, 2011-03-29 00:00:00, 2012-03-31 00:00:00, false</Argument>
     </Anropsinformation>
   </Tjänstemeddelande>
   <Tjänstemeddelande>
     <Svarsinformation>
       <Svarskod>1</Svarskod>
       <Meddelande>Anrop lyckat</Meddelande>
-      <Tjänsteansvarig>Owen</Tjänsteansvarig>
-      <Applikation>IIProjectClient.Controllers.SökController</Applikation>
-      <Svarstid>2017-03-16T22:54:39.3221346+01:00</Svarstid>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.31</Applikation>
+      <Svarstid>2017-03-17T19:22:50.4092148+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Dean</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.13, 2011-03-29 00:00:00, 2011-03-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.31</Applikation>
+      <Svarstid>2017-03-17T19:50:33.8612203+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig></Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.13, 2011-03-29 00:00:00, 2011-03-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>3</Svarskod>
+      <Meddelande>Autensitering misslyckad, icke godkänd användare</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.31</Applikation>
+      <Svarstid>2017-03-17T19:57:25.8907553+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Dean</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.13, 2011-03-29 00:00:00, 2011-03-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>3</Svarskod>
+      <Meddelande>Autensitering misslyckad, icke godkänd användare</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.31</Applikation>
+      <Svarstid>2017-03-17T19:57:26.6607818+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Dean</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.13, 2011-03-29 00:00:00, 2011-03-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>3</Svarskod>
+      <Meddelande>Autensitering misslyckad, icke godkänd användare</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.31</Applikation>
+      <Svarstid>2017-03-17T19:59:19.8484696+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Dea</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.13, 2011-03-29 00:00:00, 2011-03-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T21:15:55.0130971+01:00</Svarstid>
     </Svarsinformation>
     <Anropsinformation>
       <Anropsansvarig>Owen</Anropsansvarig>
-      <Argument></Argument>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-10-10 00:00:00, 2011-10-11 00:00:00, false</Argument>
     </Anropsinformation>
   </Tjänstemeddelande>
   <Tjänstemeddelande>
     <Svarsinformation>
-      <Svarskod>1</Svarskod>
-      <Meddelande>Anrop lyckat</Meddelande>
-      <Tjänsteansvarig>Mumin</Tjänsteansvarig>
-      <Applikation>IIProjectClient.Controllers.SökController</Applikation>
-      <Svarstid>2017-03-16T23:31:52.947777+01:00</Svarstid>
-    </Svarsinformation>
-    <Anropsinformation>
-      <Anropsansvarig>Mumin</Anropsansvarig>
-      <Argument></Argument>
-    </Anropsinformation>
-  </Tjänstemeddelande>
-  <Tjänstemeddelande>
-    <Svarsinformation>
-      <Svarskod>1</Svarskod>
-      <Meddelande>Anrop lyckat</Meddelande>
-      <Tjänsteansvarig>Owen</Tjänsteansvarig>
-      <Applikation>IIProjectClient.Controllers.SökController</Applikation>
-      <Svarstid>2017-03-17T08:29:55.3128971+01:00</Svarstid>
+      <Svarskod>2</Svarskod>
+      <Meddelande>Interntfel, kan ej utföra operation</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T21:52:37.5595696+01:00</Svarstid>
     </Svarsinformation>
     <Anropsinformation>
       <Anropsansvarig>Owen</Anropsansvarig>
-      <Argument></Argument>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T21:58:09.2915235+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:05:14.7826932+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-03-25 00:00:00, 2011-04-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:05:20.6563047+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:06:59.2542018+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:07:40.0520236+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:07:53.7533319+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>2</Svarskod>
+      <Meddelande>Interntfel, kan ej utföra operation</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:09:07.2311191+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.11, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:09:27.2903894+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.11, 2011-03-25 00:00:00, 2011-04-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:09:57.1965224+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.11, 2011-03-25 00:00:00, 2011-05-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:10:37.4649791+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:11:02.8561511+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.11, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:13:20.908644+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.12, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>2</Svarskod>
+      <Meddelande>Interntfel, kan ej utföra operation</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:17:42.9670339+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.13, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:21:55.0788306+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-03-25 00:00:00, 2011-07-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:22:13.8014441+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-06-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:22:29.9942948+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-07-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:22:37.4675319+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:22:45.4961757+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-06-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:22:55.8154037+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:23:11.9295498+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.11, 2011-03-25 00:00:00, 2011-07-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:25:47.2282205+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-03-25 00:00:00, 2011-11-10 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:26:43.7354226+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-03-25 00:00:00, 2011-05-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:26:52.0200913+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-05-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:26:55.2001091+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-05-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:26:56.1281464+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-05-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:27:02.033631+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.11, 2011-03-25 00:00:00, 2011-05-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:27:53.8713065+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-05-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:27:59.9237732+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.11, 2011-03-25 00:00:00, 2011-05-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:29:42.9370288+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-03-25 00:00:00, 2011-04-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:30:13.3481536+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-04-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:30:34.1817217+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.11, 2011-03-25 00:00:00, 2011-04-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:32:37.5715856+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:33:00.1573444+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:34:01.0199845+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:35:12.1097552+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:35:47.6626099+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:36:32.3264355+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:37:19.9677887+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.11, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:38:45.8020263+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.12, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:39:42.7337823+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.13, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:40:36.9299765+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.2, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:41:40.8157145+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.3, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:42:15.8701366+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.7, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:42:47.2274767+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.8, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:43:19.3858482+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.9, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T22:44:31.6714276+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.12, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T23:34:47.0073048+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.8, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T23:34:58.3601456+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.12, 2011-03-25 00:00:00, 2011-03-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T23:35:52.6331952+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.12, 2011-03-25 00:00:00, 2011-03-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T23:37:25.3897471+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.9, 2011-03-25 00:00:00, 2011-03-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T23:37:34.8009129+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.9, 2011-03-25 00:00:00, 2011-04-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T23:48:14.5444297+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.9, 2011-03-25 00:00:00, 2011-04-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-17T23:48:42.3604299+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.1, 2011-03-25 00:00:00, 2011-05-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.2.7</Applikation>
+      <Svarstid>2017-03-18T00:20:07.3545046+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.11, 2011-03-18 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.3.1</Applikation>
+      <Svarstid>2017-03-18T00:35:06.7837595+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.8, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
     </Anropsinformation>
   </Tjänstemeddelande>
 </Tjänstemeddelanden>

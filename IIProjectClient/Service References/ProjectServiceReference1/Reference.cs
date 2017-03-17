@@ -55,10 +55,10 @@ namespace IIProjectClient.ProjectServiceReference1 {
         System.Threading.Tasks.Task<System.Xml.XmlElement> GetLocationAsync(string epc);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetAllLocations", ReplyAction="http://tempuri.org/IService1/GetAllLocationsResponse")]
-        IIProjectClient.ProjectServiceReference1.ArrayOfXElement GetAllLocations();
+        System.Xml.XmlElement GetAllLocations();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetAllLocations", ReplyAction="http://tempuri.org/IService1/GetAllLocationsResponse")]
-        System.Threading.Tasks.Task<IIProjectClient.ProjectServiceReference1.ArrayOfXElement> GetAllLocationsAsync();
+        System.Threading.Tasks.Task<System.Xml.XmlElement> GetAllLocationsAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetEventsForLocation", ReplyAction="http://tempuri.org/IService1/GetEventsForLocationResponse")]
         System.Xml.XmlElement GetEventsForLocation(string locationUrn, System.DateTime fromDate, System.DateTime toDate, bool resetMasterData);
@@ -134,11 +134,11 @@ namespace IIProjectClient.ProjectServiceReference1 {
             return base.Channel.GetLocationAsync(epc);
         }
         
-        public IIProjectClient.ProjectServiceReference1.ArrayOfXElement GetAllLocations() {
+        public System.Xml.XmlElement GetAllLocations() {
             return base.Channel.GetAllLocations();
         }
         
-        public System.Threading.Tasks.Task<IIProjectClient.ProjectServiceReference1.ArrayOfXElement> GetAllLocationsAsync() {
+        public System.Threading.Tasks.Task<System.Xml.XmlElement> GetAllLocationsAsync() {
             return base.Channel.GetAllLocationsAsync();
         }
         

@@ -98,7 +98,13 @@
   <xs:element name="GetAllLocationsResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/System.Xml.Linq" minOccurs="0" name="GetAllLocationsResult" nillable="true" type="q3:ArrayOfXElement" />
+        <xs:element minOccurs="0" name="GetAllLocationsResult" nillable="true">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any minOccurs="0" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:sequence>
     </xs:complexType>
   </xs:element>

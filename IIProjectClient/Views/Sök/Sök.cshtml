@@ -2,13 +2,31 @@
 @{
     ViewBag.Title = "Sök";
 
+
 }
 @if (Request.IsAuthenticated)
 {
-
     <form action="@Url.Action("Sök")" method="post">
-        Sök: <input type="text" name="_testor"><br>
-        <input type="submit" class="btn btn-primary " value="Sök" />
+        <div style="width:100%;">
+            <div style="display:inline-block; width:27%;">
+                Plats<br />
+                @Html.DropDownList("Location", ViewBag.Sokning as List<SelectListItem>, new { @style = "height: 40px; border-color: white; padding:5px; margin:5px; width:95%;" })@*<br>*@
+            </div>
+            <div style="display:inline-block; width:27%;">
+                Fr.o.m<br />
+                <input type="Date" name="from" required value="2011-03-25" style="height: 30px; width: 95%;">@*<br>*@
+            </div>
+            <div style="display: inline-block; width: 27%;">
+                T.o.m<br />
+                <input type="Date" name="tom" required value="2011-11-30" style="height: 30px; width: 95%;">@*<br>*@
+            </div>
+            <div style="display:inline-block;">
+                <br />
+                <input type="submit" class="btn btn-primary " value="Sök" style="height:35px;"/>
+            </div>
+        </div>
+        <input type="hidden" name="user" value="@User.Identity.Name">
+        
     </form>
 
     <div>
@@ -43,8 +61,7 @@
                 }
             </table>
         }
-    </div>
-
+    </div> 
 }
 else
 {

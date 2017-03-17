@@ -21,3 +21,9 @@ C:\Users\WMS User03.WMS\Desktop\Studier\Studier VT2017\Informationsinfrastruktur
 C:\Users\WMS User03.WMS\Desktop\Studier\Studier VT2017\Informationsinfrastruktur\Projektarbete\170316_2123_fg_github\IIProjectWork-master\IIProjectService\bin\IIProjectService.pdb
 C:\Users\WMS User03.WMS\Desktop\Studier\Studier VT2017\Informationsinfrastruktur\Projektarbete\170316_2123_fg_github\IIProjectWork-master\IIProjectService\obj\Debug\IIProjectService.dll
 C:\Users\WMS User03.WMS\Desktop\Studier\Studier VT2017\Informationsinfrastruktur\Projektarbete\170316_2123_fg_github\IIProjectWork-master\IIProjectService\obj\Debug\IIProjectService.pdb
+C:\temptests\gunnar_v2\IIProjectService\bin\IIProjectService.dll.config
+C:\temptests\gunnar_v2\IIProjectService\bin\IIProjectService.dll
+C:\temptests\gunnar_v2\IIProjectService\bin\IIProjectService.pdb
+C:\temptests\gunnar_v2\IIProjectService\obj\Debug\IIProjectService.dll
+C:\temptests\gunnar_v2\IIProjectService\obj\Debug\IIProjectService.pdb
+C:\temptests\gunnar_v2\IIProjectService\obj\Debug\IIProjectService.csprojResolveAssemblyReference.cache

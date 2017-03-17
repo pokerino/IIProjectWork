@@ -94,17 +94,14 @@ namespace IIProjectService
 
         }
 
-        public IEnumerable<XElement> GetAllLocations()
+        public XElement GetAllLocations()
         {
             ServiceReference1.NamingServiceClient client = new ServiceReference1.NamingServiceClient();
-
-            IEnumerable<XElement> iexe = (IEnumerable<XElement>)client.GetAllLocations();
-
+            XElement iexe = client.GetAllLocations();
             return iexe;
-
         }
 
-        //Unique own methods
+        //Unique methods
         //Hämtar alla events inom angivet datumintervall
         public XElement GetEventsForLocation(string locationUrn, DateTime fromDate, DateTime toDate, bool resetMasterData)
         {
@@ -147,9 +144,7 @@ namespace IIProjectService
                 replyAsXElement.Add(x);
             }
 
-            //XElement replyXElementWrapped = new XElement("FordonsPassager", replyAsXElement);
-
-            return replyAsXElement;//replyXElementWrapped;
+            return replyAsXElement;
         }
 
         private XElement VehicleFromService(string urn)
@@ -165,7 +160,7 @@ namespace IIProjectService
                    select new XElement(x)
                    ).FirstOrDefault();
             }
-            //if (reply.IsEmpty == true)
+            
             if (reply == null)
             {
 
@@ -175,34 +170,50 @@ namespace IIProjectService
 
                 client.Close();
 
-                XElement reply2 = new XElement
+                XElement reply2;
+
+                if(reply.Elements("Fordonsindivider").Any())
+                { 
+
+
+                reply2 = new XElement
                                     (
                                         "Fordon",
-                                        new XElement
-                                            ("EPC", urn),
-                                        new XElement
-                                            ("EVN", reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Fordonsnummer").Value),
-                                        new XElement
-                                            ("Fordonsinnehavare", reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Fordonsinnehavare").Element("Foretag").Value),
-                                        new XElement
-                                            ("UnderhallsansvarigtForetag", reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("UnderhallsansvarigtForetag").Element("Foretag").Value),
-                                        new XElement
-                                            ("FordonsTyp", reply.Element("FordonsTyp").Element("FordonskategoriKodFullVardeSE").Value),
-                                        new XElement
-                                            ("FordonsunderkategoriKodFullVardeSE", reply.Element("FordonsTyp").Element("FordonsunderkategoriKodFullVardeSE").Value),
-                                        new XElement
-                                            ("FordonsgodkannandeFullVardeSE", reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Godkannande").Element("FordonsgodkannandeFullVardeSE").Value),
-
-                                            (reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Godkannande").Elements("GiltigtTom").Any()) ?
-                                                new XElement
-                                                    ("GiltigtTom", reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Godkannande").Element("GiltigtTom").Value)
-                                                : null,
-
-                                            (reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Godkannande").Elements("GiltigtFrom").Any()) ?
-                                                new XElement
-                                                    ("GiltigtFrom", reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Godkannande").Element("GiltigtFrom").Value)
-                                                : null
+                                        new XElement("EPC", urn),
+                                        
+                                        (reply.Element("Fordonsindivider").Element("FordonsIndivid").Elements("Fordonsnummer").Any()) ?
+                                        new XElement("EVN", reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Fordonsnummer").Value) : null,
+                                        
+                                        (reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Fordonsinnehavare").Elements("Foretag").Any()) ?
+                                        new XElement("Fordonsinnehavare", reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Fordonsinnehavare").Element("Foretag").Value) : null,
+                                        
+                                        (reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("UnderhallsansvarigtForetag").Elements("Foretag").Any()) ?
+                                        new XElement("UnderhallsansvarigtForetag", reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("UnderhallsansvarigtForetag").Element("Foretag").Value) : null,
+                                        
+                                        (reply.Element("FordonsTyp").Elements("FordonskategoriKodFullVardeSE").Any()) ?
+                                        new XElement("FordonsTyp", reply.Element("FordonsTyp").Element("FordonskategoriKodFullVardeSE").Value) : null,
+                                        
+                                        (reply.Element("FordonsTyp").Elements("FordonsunderkategoriKodFullVardeSE").Any()) ?
+                                        new XElement("FordonsunderkategoriKodFullVardeSE", reply.Element("FordonsTyp").Element("FordonsunderkategoriKodFullVardeSE").Value) : null,
+                                        
+                                        (reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Godkannande").Elements("FordonsgodkannandeFullVardeSE").Any()) ?
+                                        new XElement("FordonsgodkannandeFullVardeSE", reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Godkannande").Element("FordonsgodkannandeFullVardeSE").Value): null ,
+                                        
+                                        (reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Godkannande").Elements("GiltigtTom").Any()) ?
+                                        new XElement("GiltigtTom", reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Godkannande").Element("GiltigtTom").Value): null,
+                                        
+                                        (reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Godkannande").Elements("GiltigtFrom").Any()) ?
+                                        new XElement("GiltigtFrom", reply.Element("Fordonsindivider").Element("FordonsIndivid").Element("Godkannande").Element("GiltigtFrom").Value): null
                     );
+                }
+                else
+                {
+                    reply2 = new XElement
+                                    (
+                                        "Fordon",
+                                        new XElement("EPC", urn)
+                                        );
+                }
 
                 Vehicles.Add(reply2);
 
@@ -224,23 +235,21 @@ namespace IIProjectService
                    select new XElement(x)
                    ).FirstOrDefault();
             }
-            //if (reply.IsEmpty == true)
+            
             if (reply == null)
             {
 
                 ServiceReference1.NamingServiceClient client = new ServiceReference1.NamingServiceClient();
 
-                //XElement reply = new XElement("root", null);
-
                 reply = client.GetLocation(urn);
 
                 client.Close();
-                //XElement reply2 = new XElement("Plats", reply.Element("Location").Element("Name").Value);
+                
                 reply = (XElement)reply.Element("Location");
                 Locations.Add(reply);
             }
-            //return reply2;
-            return reply;//.Element("Location");
+            
+            return reply;
         }
     }
 }

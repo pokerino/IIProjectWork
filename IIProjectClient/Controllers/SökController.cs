@@ -12,46 +12,80 @@ namespace IIProjectClient.Controllers
 {
     public class SökController : Controller
     {
-
+        private static ProjectServiceReference1.Service1Client client = new ProjectServiceReference1.Service1Client();
+        private static XElement locationList;
+        
         // GET: Sök
         public ActionResult Sök()
         {
+            locationList = XElement.Load(client.GetAllLocations().CreateNavigator().ReadSubtree());
+
+            List<SelectListItem> dropdown = new List<SelectListItem>();
+            foreach (var location in locationList.Descendants("Location"))
+            {
+                dropdown.Add(new SelectListItem { Text = location.Element("Name").Value, Value = location.Element("Epc").Value });
+            }
+            dropdown.Sort((x, y) => string.Compare(x.Text, y.Text));
+            ViewBag.Sokning = dropdown;
             return View();
         }
 
         [HttpPost]
-        public ActionResult Sök(string _testor)
+        public ActionResult Sök(string Location, DateTime From, DateTime Tom, string user)
         {
-            // Local test file
-            XElement passagerList = XElement.Load(HostingEnvironment.MapPath("/App_Data/") + "tmpTestXML.xml");
+            int error = 1;
+            Tjänstemeddelande newMessage;
+            List<SelectListItem> dropdown = new List<SelectListItem>();
             
-            // Service call client
-            ProjectServiceReference1.Service1Client client = new ProjectServiceReference1.Service1Client();
+            locationList = XElement.Load(client.GetAllLocations().CreateNavigator().ReadSubtree());
+            
+            foreach (var location in locationList.Descendants("Location"))
+            {
+                dropdown.Add(new SelectListItem { Text = location.Element("Name").Value, Value = location.Element("Epc").Value });
+            }
+            
+            ViewBag.Sokning = dropdown;
+            string urn = Location;
+            DateTime _from = From;
+            DateTime _to = Tom;
+            var search = Location +", " + From+", "+Tom+", false";
+            
+            XElement x;
+            if (!IIProjectClient.Models.User.IsUser(user))
+            {
+                error = 3;
+                x = new XElement("FordonsPassager", new XAttribute("xmlns", ""));
+                newMessage = new Tjänstemeddelande(error, "Grupp 10", "Järnkoll v0.3.1", user, search);
+                x.AddFirst(newMessage.toXml());
+                XElement message = XElement.Load(HostingEnvironment.MapPath("/App_Data/") + "Tjänstemeddelanden.xml");
+                message.Add(newMessage.toXml());
+                message.Save(HostingEnvironment.MapPath("/App_Data/") + "Tjänstemeddelanden.xml");
+                return RedirectToAction("Index", "Home");
+            }
 
-            // Test Values -- USE AS INPUT PARAMETERS
-            string urn = "urn:epc:id:sgln:735999271.000.13";
-            DateTime _from = Convert.ToDateTime("2011-03-29");
-            DateTime _to = _from.AddDays(1);
-            
             // Service call (rightmost bool: refresh (delete and fetch new) masterdata in service)
-            XElement x = XElement.Load(client.GetEventsForLocation(urn, _from, _to, false).CreateNavigator().ReadSubtree());
+            try { x = XElement.Load(client.GetEventsForLocation(urn, _from, _to, false).CreateNavigator().ReadSubtree());
+            
 
+            }
+            catch { 
+                error = 2;
+                x = new XElement("FordonsPassager", new XAttribute("xmlns",""));
+            }
             // Convert to FordonsPassage class
             IEnumerable<FordonPassage> viewPassager = (
                                                         //from passager in passagerList.Elements("FordonPassage")
                                                         from    passager in x.Elements("FordonPassage")
                                                         let     passage = FordonPassage.fromXML(passager)
                                                         select  passage
-                                                      ).OrderByDescending(p => p.Tid);
-
-            Tjänstemeddelande newMessage = new Tjänstemeddelande(1, User.Identity.Name, this.ToString(), User.Identity.Name, _testor);
+                                                        ).OrderByDescending(p => p.Tid);
+            newMessage = new Tjänstemeddelande(error, "Grupp 10", "Järnkoll v0.3.1", user, search);         
+            x.AddFirst(newMessage.toXml());
             XElement messages = XElement.Load(HostingEnvironment.MapPath("/App_Data/") + "Tjänstemeddelanden.xml");
             messages.Add(newMessage.toXml());
             messages.Save(HostingEnvironment.MapPath("/App_Data/") + "Tjänstemeddelanden.xml");
 
             return View(viewPassager);
         }
-
-
     }
 }

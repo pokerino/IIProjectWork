@@ -40,7 +40,7 @@ namespace IIProjectService
         XElement GetLocation(String epc);
 
         [OperationContract]
-        IEnumerable<XElement> GetAllLocations();
+        XElement GetAllLocations();
 
         [OperationContract]
         XElement GetEventsForLocation(string locationUrn, DateTime fromDate, DateTime toDate, bool resetMasterData);
