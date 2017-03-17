@@ -39,4 +39,17 @@
       <Argument></Argument>
     </Anropsinformation>
   </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Owen</Tjänsteansvarig>
+      <Applikation>IIProjectClient.Controllers.SökController</Applikation>
+      <Svarstid>2017-03-17T08:29:55.3128971+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument></Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
 </Tjänstemeddelanden>
