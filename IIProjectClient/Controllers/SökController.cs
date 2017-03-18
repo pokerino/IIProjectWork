@@ -55,7 +55,7 @@ namespace IIProjectClient.Controllers
             {
                 error = 3;
                 x = new XElement("FordonsPassager", new XAttribute("xmlns", ""));
-                newMessage = new Tjänstemeddelande(error, "Grupp 10", "Järnkoll v0.3.1", user, search);
+                newMessage = new Tjänstemeddelande(error, "Grupp 10", "Järnkoll v0.3.3", user, search);
                 x.AddFirst(newMessage.toXml());
                 XElement message = XElement.Load(HostingEnvironment.MapPath("/App_Data/") + "Tjänstemeddelanden.xml");
                 message.Add(newMessage.toXml());
@@ -79,7 +79,7 @@ namespace IIProjectClient.Controllers
                                                         let     passage = FordonPassage.fromXML(passager)
                                                         select  passage
                                                         ).OrderByDescending(p => p.Tid);
-            newMessage = new Tjänstemeddelande(error, "Grupp 10", "Järnkoll v0.3.1", user, search);         
+            newMessage = new Tjänstemeddelande(error, "Grupp 10", "Järnkoll v0.3.3", user, search);         
             x.AddFirst(newMessage.toXml());
             XElement messages = XElement.Load(HostingEnvironment.MapPath("/App_Data/") + "Tjänstemeddelanden.xml");
             messages.Add(newMessage.toXml());

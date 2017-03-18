@@ -832,4 +832,56 @@
       <Argument>urn:epc:id:sgln:735999271.000.8, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
     </Anropsinformation>
   </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.3.1</Applikation>
+      <Svarstid>2017-03-18T10:57:49.4246811+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.9, 2011-03-17 00:00:00, 2011-03-25 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.3.1</Applikation>
+      <Svarstid>2017-03-18T10:58:06.3975123+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.10, 2011-03-12 00:00:00, 2011-03-26 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.3.1</Applikation>
+      <Svarstid>2017-03-18T10:58:18.2048028+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.8, 2011-03-03 00:00:00, 2011-03-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
+  <Tjänstemeddelande>
+    <Svarsinformation>
+      <Svarskod>1</Svarskod>
+      <Meddelande>Anrop lyckat</Meddelande>
+      <Tjänsteansvarig>Grupp 10</Tjänsteansvarig>
+      <Applikation>Järnkoll v0.3.1</Applikation>
+      <Svarstid>2017-03-18T10:58:40.0741328+01:00</Svarstid>
+    </Svarsinformation>
+    <Anropsinformation>
+      <Anropsansvarig>Owen</Anropsansvarig>
+      <Argument>urn:epc:id:sgln:735999271.000.12, 2011-03-25 00:00:00, 2011-11-30 00:00:00, false</Argument>
+    </Anropsinformation>
+  </Tjänstemeddelande>
 </Tjänstemeddelanden>
